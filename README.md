@@ -1,2 +1,33 @@
-# calculator-basic-app
-The Java Calculator project is a simple yet versatile application built using Java to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. Designed for both beginners and intermediate learners, this project demonstrates fundamental concepts of Java programming, object-oriented design.
+# Java Calculator
+
+Simple calculator application in Java. Provides both a command-line interface (CLI) and a Swing graphical user interface (GUI). Built with Maven.
+
+## Features
+- Basic arithmetic: add, subtract, multiply, divide
+- CLI mode for quick use
+- Simple Swing-based GUI
+
+## Requirements
+- Java 11+ (JDK)
+- Maven
+
+## Build
+
+```bash
+mvn package
+```
+
+## Run (CLI)
+
+```bash
+java -jar target/java-calculator-1.0.jar cli
+```
+
+## Run (GUI)
+
+```bash
+java -jar target/java-calculator-1.0.jar gui
+```
+
+## License
+MIT

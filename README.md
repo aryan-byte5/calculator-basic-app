@@ -27,7 +27,4 @@ java -jar target/java-calculator-1.0.jar cli
 
 ```bash
 java -jar target/java-calculator-1.0.jar gui
-```
-
-## License
-MIT
+``
